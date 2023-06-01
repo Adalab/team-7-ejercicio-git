@@ -1,8 +1,17 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
 .head {
     background: #fc0;
     height: 100px;
     position: relative;
     width: 100px;
+    border-radius: 50%;
   }
   .face {
     font-family: 'courier new', serif;
@@ -12,4 +21,5 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -60%) rotate(90deg);
+    
   }
